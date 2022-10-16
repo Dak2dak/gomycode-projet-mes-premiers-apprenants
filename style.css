@@ -10,7 +10,6 @@
 
 
 body {
-    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,7 +39,7 @@ header {
 
 
 
-    border: 0.1px solid rgb(0, 0, 0, 0.2);
+    border: 0.01px solid rgb(0, 0, 0, 0.2);
 }
 
 nav {
@@ -48,25 +47,13 @@ nav {
     left: 0;
     width: 100%;
     display: flex;
-    z-index: 1000;
+    /* z-index: 1000; */
     position: fixed;
     transition: 0.6s;
     padding: 15px 150px;
     align-items: center;
     justify-content: space-between;
 }
-
-nav.sticky {
-    color: #000;
-    background-color: #fff;
-    box-shadow: 3px 0 10px rgb(0, 0, 0, 0.3);
-}
-
-nav.sticky .navbar_right ul a {
-    color: #000;
-}
-
-
 
 .navbar_left h1 span {
     color: #F38708;
@@ -83,7 +70,20 @@ nav.sticky .navbar_right ul a {
 .navbar_right ul a:hover {
     color: #F38708;
     border-bottom: 3px solid #F38708;
-    /* text-decoration: solid; */
+}
+
+nav.sticky {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 3px 0 10px rgb(0, 0, 0, 0.3);
+}
+
+nav.sticky .navbar_right ul a {
+    color: #000;
+}
+
+nav.sticky .navbar_right ul a:hover {
+    color: #F38708;
 }
 
 .navbar_right ul button {
@@ -139,6 +139,8 @@ header .container p {
     background-color: #2E72D5;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 
 /*+++++++++++++++++ CSS SECTION 1 ++++++++++++++++++*/
@@ -245,6 +247,7 @@ header .container p {
 
 .section-3 {
     display: flex;
+    padding-top: 30px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -326,9 +329,9 @@ header .container p {
 
 .section-4-container .testimony {
     width: 20%;
-    color: #000;
     height: 370px;
     display: flex;
+    color: #000;
     padding: 20px 0;
     font-weight: 300;
     align-items: center;
@@ -353,8 +356,8 @@ header .container p {
 }
 
 .testimony p {
-    padding: 0 25px;
     margin: 20px 0;
+    padding: 0 25px;
     text-align: center;
 }
 
@@ -372,15 +375,14 @@ header .container p {
 
 .footer_description {
     display: flex;
-    /* padding-top: 30px; */
     align-items: center;
     padding-bottom: 80px;
     flex-direction: column;
     justify-content: center;
 
     background-image: url(./images/img-form.jpg);
-    background-position: top;
     background-repeat: no-repeat;
+    background-position: top;
     background-size: 100%;
 }
 
