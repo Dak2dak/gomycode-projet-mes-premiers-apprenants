@@ -229,7 +229,7 @@ section {
 
     .section-4-container .testimony {
         width: 70%;
-        height: 370px;
+        height: 100%;
         display: flex;
         color: #000;
         padding: 20px 0;
@@ -265,6 +265,7 @@ section {
         font-weight: 600;
         color: #F38708;
     }
+    
 
 
 
