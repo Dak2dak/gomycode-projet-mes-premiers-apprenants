@@ -23,7 +23,258 @@ section {
 
 @media screen and (max-width: 760px) {
     
+
+    section {
+        padding: 0 40px;
+        margin: 40px 0;
+    }
+
+
+/*++++++++++++ SECTION-2 +++++++++++*/
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+    .section-1-container {
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .section-1 h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    .section-1-container h1 span {
+        font-size: 40px;
+        color: #F38708;
+        text-transform: capitalize;
+    }
+
+    .section-1-container p {
+        text-align: justify;
+    }
+
+    .section-1-img {
+        width: 95%;
+    }
+
+    .section-1-img img {
+        width: 100%;
+    }
+
+
+
+
+/*++++++++++++ SECTION-2 +++++++++++*/
+
+    .section-2 .headings {
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .section-2 .headings h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    .section-2 .headings h1 span {
+        font-size: 40px;
+        color: #F38708;
+        text-transform: capitalize;
+    }
+
+    .section-2 .headings p {
+        text-align: justify;
+    }
+
+    .section-2-container {
+        display: flex;
+        margin-top: 35px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-2-container .card {
+        width: 70%;
+        height: 250px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-2-container .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .section-2 .btn_box {
+        margin: 0 0 70px 0;
+        text-align: center;
+    }
+
+.section-2 .btn_box button {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background-color: #F38708;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-2 .btn_box button:hover {
+    padding: 10px 25px;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+
+/*++++++++++++ SECTION-3 +++++++++++*/
+
+    .section-3 .headings {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .section-3 .headings h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    .section-3 .headings h1 span {
+        font-size: 40px;
+        color: #F38708;
+        text-transform: capitalize;
+    }
+
+    .section-3 .headings p {
+        text-align: justify;
+    }
+
+    .Our-chefs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Our-chefs .team {
+        margin-bottom: 25px;
+        text-align: center;
+        width: 70%;
+    }
+
+    .Our-chefs .team img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Our-chefs .team span {
+        padding-top: 5px;
+        font-size: 24px;
+    }
+
+
+
+
+/*+++++++++++++++++++ SECTION 4 +++++++++++++++++++++*/
+
+    .section-4 {
+        background-image: url(./images/bg2.jpg);
+        background-size: 100% 100%, cover;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .section-4 .headings {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .section-4 .headings h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    .section-4 .headings h1 span {
+        font-size: 40px;
+        color: #F38708;
+    }
+
+    .section-4-container {
+        gap: 30px;
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-4-container .testimony {
+        width: 70%;
+        height: 370px;
+        display: flex;
+        color: #000;
+        padding: 20px 0;
+        font-weight: 300;
+        align-items: center;
+        border-radius: 15px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .section-4-container .testimony .client-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .section-4-container .testimony .client-picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #F38708;
+    }
+
+    .testimony p {
+        margin: 20px 0;
+        padding: 0 25px;
+        text-align: center;
+    }
+
+    .testimony span {
+        font-weight: 600;
+        color: #F38708;
+    }
+
+
+
+
+
+
+}
+
+
+
 
 
 /*++++++++++++ CSS HEADER +++++++++++*/
@@ -238,7 +489,7 @@ header .container p {
 .section-2 .btn_box button:hover {
     padding: 10px 25px;
     transition: all ease-in-out 0.3s;
-}
+} 
 
 
 
@@ -286,7 +537,7 @@ header .container p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} 
 
 
 
@@ -364,7 +615,7 @@ header .container p {
 .testimony span {
     font-weight: 600;
     color: #F38708;
-}
+} 
 
 
 
@@ -373,7 +624,7 @@ header .container p {
 /* +++++++++++++ FOOTER STYLING +++++++++++++++ */
 
 
-.footer_description {
+/* .footer_description {
     display: flex;
     align-items: center;
     padding-bottom: 80px;
@@ -460,4 +711,4 @@ footer .container .bottom_text {
 .bottom_text span {
     color: #F38708;
 }
-
+ */
