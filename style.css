@@ -230,7 +230,7 @@ section {
     }
 
     .section-4-container .testimony {
-        width: 80%;
+        width: 90%;
         height: 100%;
         display: flex;
         color: #000;
@@ -270,6 +270,10 @@ section {
     
 
 
+
+
+/* ++++++++++++++ FOOTER ++++++++++++++++ */
+
     .footer_description {
         display: flex;
         align-items: center;
@@ -278,9 +282,10 @@ section {
         justify-content: center;
 
         background-image: url(./images/img-form.jpg);
+        background-size: 100% 100%, cover;
         background-repeat: no-repeat;
         background-position: top;
-        background-size: 100%;
+        
     }
 
     .footer_description h1 {
@@ -301,7 +306,7 @@ section {
     }
 
     .footer_description form {
-        width: 90%;
+        width: 85%;
         display: flex;
         margin-top: 30px;
         font-weight: 600;
