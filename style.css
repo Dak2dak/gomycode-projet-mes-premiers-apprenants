@@ -26,7 +26,7 @@ section {
 
     section {
         padding: 0 40px;
-        margin: 40px 0;
+        /* margin: 40px 0; */
     }
 
 
@@ -295,7 +295,7 @@ section {
     }
 
     .footer_description p {
-        padding: 10px 0;
+        padding: 10px 20px;
         font-weight: 600;
         text-align: justify;
     }
@@ -353,6 +353,7 @@ section {
         align-items: flex-end;
         justify-content: center;
         font-family: 'Roboto', sans-serif;
+        box-shadow: 3px 0 10px rgb(0, 0, 0, 0.3);
     }
 
     .bottom_text span {
